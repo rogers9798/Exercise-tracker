@@ -1,3 +1,7 @@
+# Exercise Tracker
+
+Execise Tracker App made using React-js , Node-js and its frameworks to track your exercise routine on a daily basis with records being stored in MongoDB cloud(MongoAtlas) with hassle free delay to track your daily activities.<br>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
