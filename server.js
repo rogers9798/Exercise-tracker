@@ -10,7 +10,7 @@ const port=process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-const uri=process.env.ATLAS_URI;
+const uri=""; //mongoAtlas connection string
 mongoose.connect(uri,{useNewUrlParser:true, useCreateIndex:true, useUnifiedTopology: true});
 
 const connection=mongoose.connection;
@@ -27,3 +27,8 @@ app.use('/users', usersRouter);
 app.listen(port, ()=>{
     console.log(`Server running on port : ${port}`);
 });
+
+if (process.env.NODE_ENV === 'production') {
+	app.use(express.static('client/build'));
+}
+
