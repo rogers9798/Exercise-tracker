@@ -4,6 +4,8 @@ Execise Tracker App made using React-js , Node-js and its frameworks to track yo
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![](pro.gif)
+
 ## Available Scripts
 
 In the project directory, you can run:
